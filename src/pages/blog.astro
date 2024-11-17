@@ -1,0 +1,57 @@
+---
+import "../styles/global.css";
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const pageTitle = "My Astro Learning Blog";
+const allPosts = await Astro.glob('./posts/*.md');
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle}</title>
+        <style define:vars={{ skillColor, fontWeight, textCase }}>
+            h1 {
+                color: #236ab2;
+                font-size: 4rem;
+            }
+            .skill {
+                color: var(--skillColor);
+                font-weight: var(--fontWeight);
+                text-transform: var(--textCase);
+            }
+            ul{
+                padding: 1rem;
+            }
+            li{
+                margin-bottom: 0.5rem;
+                list-style: none;
+            }
+            a{
+                color: rgb(17, 195, 115);
+                text-decoration: none;
+            }
+            a:hover{
+                color:aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <BaseLayout pageTitle={pageTitle}>
+        <p>This is where I will post about my journey learning Astro.</p>
+        <ul>
+            {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+        </ul>
+    </BaseLayout>
+        <script>
+             import "../scripts/menu.js";
+          </script>
+    </body>
+</html>

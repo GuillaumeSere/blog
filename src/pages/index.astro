@@ -1,4 +1,7 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "Home";
 
 ---
 
@@ -6,11 +9,44 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+        <BaseLayout pageTitle={pageTitle}>
+            <div class="video">
+                <p class="description-1">Cette vidéo montre notre équipe en train de travailler sur un projet passionnant. Vous pouvez y voir les développeurs, les designers et les gestionnaires de projet collaborer pour créer quelque chose de vraiment spécial.</p>
+                <video class="video-play-1" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video1.mp4" type="video/mp4" />
+                </video>
+                <p class="description-2">Voici une autre vidéo qui met en avant notre équipe lors d'une journée typique au bureau. Vous pouvez y voir comment nous nous amusons tout en travaillant dur.</p>
+                <video class="video-play-1" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video2.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video">
+                <p class="description-3">Cette vidéo vous montre comment nous avons créé notre produit phare. Vous pouvez y voir les différentes étapes de conception et de développement.</p>
+                <video class="video-play-2" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video3.mp4" type="video/mp4" />
+                </video>
+                <p class="description-4">Voici une vidéo qui vous présente notre équipe de direction. Vous pouvez y entendre leurs visions et leurs objectifs pour l'entreprise.</p>
+                <video class="video-play-2" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video4.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video">
+                <p class="description-5">Cette vidéo vous montre comment nous nous engageons dans des activités de bienfaisance. Vous pouvez y voir comment nous aidons les communautés locales.</p>
+                <video class="video-play-1" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video5.mp4" type="video/mp4" />
+                </video>
+                <p class="description-6">Voici une autre vidéo qui vous montre comment nous célébrons les succès de nos employés. Vous pouvez y voir comment nous nous amusons ensemble.</p>
+                <video class="video-play-1" controls autoplay muted style="max-width: 800px; height:400px; margin-top: 1.4rem;">
+                    <source src="../images/video6.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </BaseLayout>
 	</body>
 </html>
+
+
