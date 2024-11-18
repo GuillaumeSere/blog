@@ -44,6 +44,10 @@ ul{
     backdrop-filter: blur(10px);
     border-radius: 2rem;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .video{
     position: relative;
     display: flex;
@@ -59,36 +63,48 @@ ul{
     width: 200px;
     height: auto;
     right:0.5rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 .description-2{
     position: absolute;
     width: 200px;
     height: auto;
     left: -9rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 .description-3{
     position: absolute;
     width: 200px;
     height: auto;
     right: -9rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 .description-4{
     position: absolute;
     width: 200px;
     height: auto;
     left: 0.5rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 .description-5{
     position: absolute;
     width: 200px;
     height: auto;
     right: 0.5rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 .description-6{
     position: absolute;
     width: 200px;
     height: auto;
     left: -9rem;
+    color: #1688b2;
+    font-weight: bold;
 }
 
 .video-play-1{
@@ -163,6 +179,39 @@ ul{
         display: none;
       }
 
+}
+
+@media (max-width:1140px){
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description-1{
+        position: relative;
+        right:0;
+    }
+    .description-2{
+        position: relative;
+        left: 0;
+    }
+    .description-3{
+        position: relative;
+        right: 0;
+    }
+    .description-4{
+        position: relative;
+        left: 0;
+    }
+    .description-5{
+        position: relative;
+        right: 0;
+    }
+    .description-6{
+        position: relative;
+        left: 0;
+    }
 }
 
 @media (max-width:650px){
