@@ -1,9 +1,9 @@
 ---
 import "../styles/global.css";
-import BaseLayout from '../layouts/BaseLayout.astro'
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "My Astro Learning Blog";
-const allPosts = await Astro.glob('./posts/*.md');
+const allPosts = await Astro.glob("./posts/*.md");
 
 const skillColor = "navy";
 const fontWeight = "bold";
@@ -27,31 +27,37 @@ const textCase = "uppercase";
                 font-weight: var(--fontWeight);
                 text-transform: var(--textCase);
             }
-            ul{
+            ul {
                 padding: 1rem;
             }
-            li{
+            li {
                 margin-bottom: 0.5rem;
                 list-style: none;
             }
-            a{
+            a {
                 color: rgb(17, 195, 115);
                 text-decoration: none;
             }
-            a:hover{
-                color:aqua;
+            a:hover {
+                color: aqua;
             }
         </style>
     </head>
     <body>
         <BaseLayout pageTitle={pageTitle}>
-        <p>This is where I will post about my journey learning Astro.</p>
-        <ul>
-            {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
-        </ul>
-    </BaseLayout>
+            <p>This is where I will post about my journey learning Astro.</p>
+            <ul>
+                {
+                    allPosts.map((post) => (
+                        <li>
+                            <a href={post.url}>{post.frontmatter.title}</a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </BaseLayout>
         <script>
-             import "../scripts/menu.js";
-          </script>
+            import "../scripts/menu.js";
+        </script>
     </body>
 </html>
