@@ -136,7 +136,6 @@ ul{
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #236ab2;
     display: none;
     margin: 0;
 }
@@ -149,17 +148,19 @@ ul{
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
+    background: linear-gradient(120deg, #08538c 0%, #55e28b 100%);
     text-transform: uppercase;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-    background-color: #76ff86;
 }
 
 .expanded {
     display: unset;
 }
+
+.picture-profil{
+    max-width: 500px;
+}
+
+
 
 @media screen and (min-width: 636px) {
     .nav-links {
@@ -182,6 +183,9 @@ ul{
 }
 
 @media (max-width:1140px){
+    h1{
+        font-size: 30px;
+    }
     .video{
         display: flex;
         flex-direction: column;
@@ -227,5 +231,9 @@ ul{
     
     .video-play-2{
         margin-left: 0;
+    }
+
+    .picture-profil{
+        max-width: 300px;
     }
 }

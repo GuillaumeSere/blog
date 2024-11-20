@@ -2,7 +2,7 @@
 import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "My Astro Learning Blog";
+const pageTitle = "Mon Blog";
 const allPosts = await Astro.glob("./posts/*.md");
 
 const skillColor = "navy";
@@ -45,7 +45,7 @@ const textCase = "uppercase";
     </head>
     <body>
         <BaseLayout pageTitle={pageTitle}>
-            <p>This is where I will post about my journey learning Astro.</p>
+            <p>Découvrez la liste des différents postes ci dessous</p>
             <ul>
                 {
                     allPosts.map((post) => (
