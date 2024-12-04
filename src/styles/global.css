@@ -19,6 +19,8 @@ body {
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -63,54 +65,61 @@ li{
     padding: 2rem;
     border-radius: 50px;
     margin: 2rem;
+    box-shadow: 2px 4px 3px 4px black;
 }
 .description-1{
     position: absolute;
     width: 200px;
     height: auto;
-    right:0.5rem;
-    color: #1688b2;
+    right:-0.2rem;
+    color: #050505;
     font-weight: bold;
 }
 .description-2{
     position: absolute;
     width: 200px;
     height: auto;
-    left: -9rem;
-    color: #1688b2;
+    left: -10.4rem;
+    color: #000000;
     font-weight: bold;
+    background: #47a1e6;
+    padding: 1rem;
 }
 .description-3{
     position: absolute;
     width: 200px;
     height: auto;
-    right: -9rem;
-    color: #1688b2;
+    right: -10.5rem;
+    color: #000000;
     font-weight: bold;
+    background: #47a1e6;
+    padding: 1rem;
 }
 .description-4{
     position: absolute;
     width: 200px;
     height: auto;
     left: 0.5rem;
-    color: #1688b2;
+    color: #000000;
     font-weight: bold;
 }
 .description-5{
     position: absolute;
     width: 200px;
     height: auto;
-    right: 0.5rem;
-    color: #1688b2;
+    right: -0.5rem;
+    color: #000000;
     font-weight: bold;
 }
 .description-6{
     position: absolute;
     width: 200px;
     height: auto;
-    left: -9rem;
-    color: #1688b2;
+    left: -10.4rem;
+    color: #000000;
     font-weight: bold;
+    background: #47a1e6;
+    padding: 1rem;
 }
 
 .video-play-1{
@@ -204,9 +213,11 @@ li{
     .description-1{
         position: relative;
         right:0;
+        top: 1rem;
     }
     .description-2{
         position: relative;
+        top: 1rem;
         left: 0;
     }
     .description-3{
@@ -216,6 +227,7 @@ li{
     .description-4{
         position: relative;
         left: 0;
+        top: 1rem;
     }
     .description-5{
         position: relative;
@@ -224,6 +236,7 @@ li{
     .description-6{
         position: relative;
         left: 0;
+        top: 1rem;
     }
 }
 
