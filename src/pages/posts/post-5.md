@@ -1,12 +1,25 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Poste N°5
+title: Bass Impact
 author: Guillaume SERE
-description: "This post will show up on its own!"
+description: "Bienvenue sur mon blog dédié à la musique et à la créativité ! Vous y trouverez mes instrumentales réalisées avec le logiciel Airbit.Instru réalisé avec le logiciel [AirBit](https://www.airbit.com)"
 image:
-    url: "https://images.unsplash.com/photo-1706730949208-c99b056eb80b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MDY2NDd8MHwxfGFsbHwxMTI5NHx8fHx8fHx8MTczMTY4MDMzOHw&ixlib=rb-4.0.3&q=80&w=400"
-    alt: "The word astro against an illustration of planets and stars."
+    url: "https://cdn.airbit.com/artwork/8495518f31e4e046d53a023e8f317d31@300x.jpg"
+    alt: "image de l'instru bass impact"
 pubDate: 17.11.2024
 tags: ["astro", "successes","blogging", "learning in public"]
 ---
-This post should show up with my other blog posts, because `Astro.glob()` is returning a list of all my posts in order to create my list.
+Published on: 04.12.2024
+
+![Image de mon projet](../../images/img5.png)
+
+## Description
+Préparez-vous à une vague de puissance avec cette instru drum percutante. Les drums, incisifs et percussifs, frappent comme un métronome implacable, donnant le rythme à cette composition minimaliste mais saisissante. La basse, profonde et vibrante, s’impose comme le moteur de l’instru, apportant une énergie brute et hypnotique. Les effets (FX) subtilement intégrés ajoutent une dimension atmosphérique, enveloppant l’ensemble dans une aura futuriste.
+
+"Bass Impact" est taillée pour des projets qui veulent marquer les esprits, idéale pour des sets dynamiques ou des scènes visuelles intenses. Simple mais redoutablement efficace, cette instru frappe là où ça compte.
+
+Prêt à ressentir l’impact ? 🥁🔥
+
+## Vidéo YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VRRhYWN1vhM?si=f9DcMh4X-UEQhdIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

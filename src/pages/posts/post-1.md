@@ -1,28 +1,24 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Poste N°1'
+title: 'Vibes Électro Tropicales'
 pubDate: 17.11.2024
-description: 'This is the first post of my new Astro blog.'
+description: 'Bienvenue sur mon blog dédié à la musique et à la créativité ! Vous y trouverez mes instrumentales réalisées avec le logiciel Airbit.Instru réalisé avec le logiciel [AirBit](https://www.airbit.com) '
 author: 'Guillaume SERE'
 image:
-    url: 'https://images.unsplash.com/photo-1724838818103-a3ff16624686?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MDY2NDd8MHwxfGFsbHwyNzYwfHx8fHx8fHwxNzMxNjgwMTM0fA&ixlib=rb-4.0.3&q=80&w=400'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: 'https://cdn.airbit.com/artwork/913d8e767c7ad3b3163c67c4b5654bf3@300x.jpg'
+    alt: 'Your local image description.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
 
 Published on: 17.11.2024
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+![Image de mon projet](../../images/img1.png)
 
-## What I've accomplished
+## Description
+Entrez dans un univers futuriste avec cette instru Tech captivante, conçue avec Airbit. Les vocaux samplés et modulés apportent une touche mystérieuse et hypnotique, tandis que les FX soigneusement placés ajoutent de la profondeur et de l’atmosphère. Les drums, percutants et précis, tracent un rythme mécanique qui contraste parfaitement avec la rondeur de la basse, profonde et vibrante, pour une expérience sonore immersive.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+Cette instru s’adresse autant aux amateurs de beats minimalistes qu’aux créateurs en quête d'une ambiance avant-gardiste et moderne. Une véritable exploration sonore à intégrer dans vos projets les plus audacieux !
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+## Vidéo YouTube
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BRQ5C0iDhEY?si=R8Ig--3U3m9Y71iW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
