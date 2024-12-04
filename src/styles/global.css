@@ -63,7 +63,7 @@ li{
     flex-wrap: wrap;
     backdrop-filter: blur(10px);
     padding: 2rem;
-    border-radius: 50px;
+    border-radius: 15px;
     margin: 2rem;
     box-shadow: 2px 4px 3px 4px black;
 }
@@ -74,6 +74,7 @@ li{
     right:-0.2rem;
     color: #050505;
     font-weight: bold;
+    border-radius: 15px;
 }
 .description-2{
     position: absolute;
@@ -83,6 +84,7 @@ li{
     color: #000000;
     font-weight: bold;
     background: #47a1e6;
+    border-radius: 15px;
     padding: 1rem;
 }
 .description-3{
@@ -93,6 +95,7 @@ li{
     color: #000000;
     font-weight: bold;
     background: #47a1e6;
+    border-radius: 15px;
     padding: 1rem;
 }
 .description-4{
@@ -102,6 +105,7 @@ li{
     left: 0.5rem;
     color: #000000;
     font-weight: bold;
+    border-radius: 15px;
 }
 .description-5{
     position: absolute;
@@ -110,6 +114,7 @@ li{
     right: -0.5rem;
     color: #000000;
     font-weight: bold;
+    border-radius: 15px;
 }
 .description-6{
     position: absolute;
@@ -119,6 +124,7 @@ li{
     color: #000000;
     font-weight: bold;
     background: #47a1e6;
+    border-radius: 15px;
     padding: 1rem;
 }
 
