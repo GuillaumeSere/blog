@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/025440091a7f89ae470a34fa84b84ea2@300x.jpg"
     alt: "image de l'instru riff électrique"
 pubDate: 04.12.2024
-tags: ["astro", "learning in public", "setbacks", "community"]
+tags: ["rock", "blog", "instrus"]
 ---
 Published on: 04.12.2024
 

@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/281ccbefa15dfc7bde110570f6e84fb5@300x.jpg"
     alt: "image de l'instru Tech"
 pubDate: 04.12.2024
-tags: ["astro", "blogging", "learning in public", "successes"]
+tags: ["tech", "blog", "instrus"]
 ---
 Published on: 04.12.2024
 

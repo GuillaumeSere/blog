@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/8495518f31e4e046d53a023e8f317d31@300x.jpg"
     alt: "image de l'instru bass impact"
 pubDate: 17.11.2024
-tags: ["astro", "successes","blogging", "learning in public"]
+tags: ["drum","blog", "instrus"]
 ---
 Published on: 04.12.2024
 

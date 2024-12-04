@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/17d6202cb5c73f9ac64981f800af592c@300x.jpg"
     alt: "image de l'instru Soft Echoes"
 pubDate: 04.12.2024
-tags: ["astro", "successes","blogging", "learning in public"]
+tags: ["rock","blog", "instrus"]
 ---
 Published on: 04.12.2024
 

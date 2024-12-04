@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/5be78f00a0b9973717942eb287da72e2@300x.jpg"
     alt: "image de l'instru rock reverberation"
 pubDate: 04.12.2024
-tags: ["astro", "successes","blogging", "learning in public"]
+tags: ["rock","blog", "instrus"]
 ---
 Published on: 04.12.2024
 

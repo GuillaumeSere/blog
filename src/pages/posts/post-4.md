@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/2f5d7f0fa0c133425f71ca885a3f34a7@300x.jpg"
     alt: "The word astro against an illustration of planets and stars."
 pubDate: 04.12.2024
-tags: ["astro", "successes"]
+tags: ["hip hop", "blog", "instrus"]
 ---
 Published on: 04.12.2024
 

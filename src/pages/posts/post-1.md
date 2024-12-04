@@ -7,7 +7,7 @@ author: 'Guillaume SERE'
 image:
     url: 'https://cdn.airbit.com/artwork/913d8e767c7ad3b3163c67c4b5654bf3@300x.jpg'
     alt: 'Your local image description.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["house", "blog", "instrus"]
 ---
 
 Published on: 17.11.2024

@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/f37dd355555ea92e7debfcc2fc0ee202@300x.jpg"
     alt: "image de l'instru street vibe"
 pubDate: 04.12.2024
-tags: ["astro", "successes","blogging", "learning in public"]
+tags: ["hip hop","blog", "instrus"]
 ---
 Published on: 04.12.2024
 

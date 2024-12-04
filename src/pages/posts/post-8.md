@@ -7,7 +7,7 @@ image:
     url: "https://cdn.airbit.com/artwork/7537a6102dd5cde3b9ea010e7430d508@300x.jpg"
     alt: "image de l'instru Electric Rush"
 pubDate: 04.12.2024
-tags: ["astro", "successes","blogging", "learning in public"]
+tags: ["rock", "blog", "instrus"]
 ---
 Published on: 04.12.2024
 
